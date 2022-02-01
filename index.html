@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conversor de Moedas </title>
+    <link rel="icon" href="./images/conversor.png">
+</head>
+
+<body>
+     
+    <div class="caixa"> 
+        <p id="topo"> Conversor de Moedas</p>
+            <div class="conteudo">
+                <nav id="moedaR">
+                    <p class="tc"> Converter <strong> de </strong> </p>
+                        <Select disabled> 
+                            <option>R$ Real Brasileiro</option>  
+                        </Select>
+                    <p class="tc"> Converter <strong>de</strong> </p>
+                        <Select id="TipoDeMoeda">
+                            <option id="₿ Bitcoin">₿ Bitcoin</option>
+                            <option id="Ethereum">Ethereum</option>
+                            <option id="$ Dollar">$ Dollar</option>
+                            <option id="€ Euro"> € Euro </option>
+                        </Select>
+                    <p class="tc"> Valor em <strong> Reais </strong> </p>
+                        <input id="ValorReal" type="number" placeholder="10.000,00">
+                    <button id="Converter"> Converter </button>
+
+                </nav>
+
+
+                <section id="quadro">
+                    <img id="br"  src="./images/brasil 2.png" alt="BRL">
+                    <p class="td"> R$ Real</p>
+                        <p id="RealValor" class="vpb"> 10.000,00 </p>
+                            <img src="./images/Vector.png" alt="seta">
+                            <br>
+                    <img id="BTCImage" src="./images/BTC.png" alt="BTC">
+                    <p class="td" id="BTCripto"> ₿ Bitcoin</p>
+                        <p id="CriptoValor" class="vpb">0.1</p>
+
+
+                </section>
+
+            </div>
+                    <script src="script.js"></script>
+    </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
